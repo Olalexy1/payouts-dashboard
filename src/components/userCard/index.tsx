@@ -17,7 +17,7 @@ const UserCard: React.FunctionComponent<Props> = ({ name, img }) => {
                 <img src={img} alt="User Card" className='user-img' />
                 <VStack alignItems="start" justifyContent={'space-between'} marginLeft={0.5} >
                     <h1 className='user-name'>{name}</h1>
-                    <a className='store-link' href="#">Visit store</a>
+                    <p className='store-link'>Visit store</p>
                 </VStack>
             </HStack>
 
