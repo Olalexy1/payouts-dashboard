@@ -1,0 +1,33 @@
+.user-card {
+    display: flex;
+    // border: 1px solid red;
+    padding-inline: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .user-img {
+        border-radius: 4px;
+        width: 39px;
+        height: 39px;
+        object-fit: cover;
+    }
+
+    .user-name {
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 500;
+        color: #fff;
+        text-align: left;
+    }
+
+    .store-link {
+        font-size: 13px;
+        text-decoration: underline;
+        line-height: 16px;
+        font-family: Inter;
+        color: #fff;
+        text-align: left;
+        opacity: 0.8;
+    }
+}
