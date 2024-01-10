@@ -1,8 +1,7 @@
-import React, { useRef, useState } from 'react';
-import type { InputRef, PaginationProps } from 'antd';
+import React, { useState } from 'react';
+import type { PaginationProps } from 'antd';
 import { Input, Pagination, Table } from 'antd';
 import type { ColumnsType } from 'antd/es/table';
-import type { FilterConfirmProps } from 'antd/es/table/interface';
 import './styles.scss';
 import { HStack, Icon, InputGroup, InputLeftElement, VStack } from '@chakra-ui/react';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
@@ -20,7 +19,7 @@ interface DataType {
     transactionFees: string;
 }
 
-type DataIndex = keyof DataType;
+// type DataIndex = keyof DataType;
 
 const data: DataType[] = [];
 for (let i = 0; i < 180; i++) {

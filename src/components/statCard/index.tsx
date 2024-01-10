@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.scss';
-import { IoIosArrowDown } from "react-icons/io";
-import { HStack, Icon, VStack } from '@chakra-ui/react';
+import { VStack } from '@chakra-ui/react';
 
 interface Props {
     name: string;

@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
@@ -10,7 +9,7 @@ function App() {
   return (
     <Router>
       <Helmet>
-        <title>payouts</title>
+        <title>Payouts Dashboard</title>
       </Helmet>
       <div className='app'>
         <SideNav />

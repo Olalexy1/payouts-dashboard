@@ -18,7 +18,7 @@ const CreditCard: React.FunctionComponent<Props> = ({ credits }) => {
 
                 <VStack alignItems="start" marginLeft={2} spacing={0.85}>
                     <h1 className='available-credit'>Available credits</h1>
-                    <a className='credits' href="#">{credits}</a>
+                    <p className='credits'>{credits}</p>
                 </VStack>
             </HStack>
 
