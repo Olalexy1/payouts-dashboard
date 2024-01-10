@@ -1,23 +1,15 @@
-:root {
-    --color_rgb: 255, 255, 255;
-}
-
 .payment-page {
     // padding: 0px 32px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    // background-color: rgba(255,255,255,0.8);
-    background-color: RGB(var(--color_rgb), 0.7);
 
     .payment-container {
-        // background-color: rgba(255,255,255,0.8);
-        background-color: RGB(var(--color_rgb), 0.7);
+        background-color: #f8f8ff;
         display: flex;
         flex-direction: column;
         width: 100%;
         flex-grow: 1;
-        // border: 1px solid  red;
         align-items: flex-start;
         padding-inline: 32px;
         padding-top: 32px;
@@ -50,8 +42,8 @@
             display: flex;
             width: 100%;
             margin-bottom: 32px;
-            // border: 1px solid  red;
-            padding: 12px;
+            border-radius: 4px;
+            padding: 6px !important;
             background-color: #fff;
         }
     }
@@ -80,11 +72,6 @@
             color: #4d4d4d;
             text-align: left;
         }
-
-        // .form-wrapper {
-        //     // border: 1px solid red;
-        //     width: 30vw;
-        // }
 
         .form-input {
             border-radius: 6px;

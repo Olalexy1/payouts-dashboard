@@ -9,6 +9,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import { FiSearch, FiDownload } from 'react-icons/fi';
 import { BiSortAlt2 } from "react-icons/bi";
 import { CiCircleInfo } from "react-icons/ci";
+import { IoCaretDownOutline } from "react-icons/io5";
 
 
 interface DataType {
@@ -86,9 +87,13 @@ const DataTable: React.FC = () => {
         },
         {
             title: (
-                <p style={{ fontWeight: '600', fontSize: '14px', color: '#4d4d4d', fontFamily: 'Inter' }}>
-                    Order Date
-                </p>
+                <HStack spacing={1}>
+                    <p style={{ fontWeight: '600', fontSize: '14px', color: '#4d4d4d', fontFamily: 'Inter' }}>
+                        Order Date
+                    </p>
+                    <Icon as={IoCaretDownOutline} boxSize='10px' color={'#4d4d4d'} />
+                </HStack>
+
             ),
             dataIndex: 'orderDate',
             key: 'orderDate',
